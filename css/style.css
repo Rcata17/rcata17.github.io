@@ -1,0 +1,16 @@
+body {
+  background-color: gray;
+}
+div{
+  background-color: white;
+  padding: 10px
+  margin: 10px
+  border: 1px solid #7777777;
+  
+}
+#motto {
+  color: darkgreen
+}
+.favorite {
+  font-weight: bold;
+}
