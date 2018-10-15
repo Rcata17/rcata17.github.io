@@ -1,16 +1,41 @@
 body {
   background-color: gray;
 }
-div{
-  background-color: white;
-  padding: 10px
-  margin: 10px
-  border: 1px solid #7777777;
-  
+.page-block {
+  background-color: whitesmoke;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #7777;
 }
 #motto {
-  color: darkgreen
+  color: darkgreen;
 }
+
+#top-menu-bar {
+  text-align: center;
+  color: #fff;
+  background-color: #334455;
+}
+#top-menu-bar li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+#top-menu-bar a {
+  padding: 5px 15px 5px 15px;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px 0 2px 0;
+}
+#top-menu-bar a:visited {
+  color: #ffffff;
+}
+#top-menu-bar a:hover {
+  color: #334455;
+  background-color: #ffffff;
+}
+
 .favorite {
   font-weight: bold;
 }
