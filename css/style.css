@@ -1,26 +1,38 @@
 body {
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
 }
-.test {
+
+/* .test {
+  border: 5px solid #000;
   margin: 2px;
   padding: 2px;
-}
-#content {
-  padding-left: 200px;
+} */
+#content-wrap {
+  border-color: blue;
 }
 #left-sidebar {
+  width: 30%;
   float: left;
-  width: 200px;
+  border-color: red;
 }
-#content-wrap {
+
+#content {
+  border-color: green;
+  padding-left: 30%;
 }
+#content div {
+  border-color: lightgreen;
+}
+
 .page-block {
-  background-color: whitesmoke;
+  background-color: white;
   padding: 24px;
   margin: 10px;
-  border: 1px solid #7777;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 10px);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
+}
+#my-picture {
+  border-radius: 50%;
 }
 #motto {
   color: darkgreen;
@@ -32,16 +44,16 @@ body {
   background-color: #334455;
 }
 #top-menu-bar li {
-  display: inline-block;
   margin: 0;
   padding: 0;
+  display: inline;
 }
 #top-menu-bar a {
   padding: 5px 15px 5px 15px;
-  color: #ffffff;
+  margin: 2px 0 2px 0;
   text-decoration: none;
   display: inline-block;
-  margin: 2px 0 2px 0;
+  color: #ffffff;
 }
 #top-menu-bar a:visited {
   color: #ffffff;
@@ -53,4 +65,8 @@ body {
 
 .favorite {
   font-weight: bold;
+}
+
+#footer {
+  clear: both;
 }
