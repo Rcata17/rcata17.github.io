@@ -1,11 +1,26 @@
 body {
-  background-color: gray;
+  background-color: whitesmoke;
+}
+.test {
+  margin: 2px;
+  padding: 2px;
+}
+#content {
+  padding-left: 200px;
+}
+#left-sidebar {
+  float: left;
+  width: 200px;
+}
+#content-wrap {
 }
 .page-block {
   background-color: whitesmoke;
-  padding: 10px;
+  padding: 24px;
   margin: 10px;
   border: 1px solid #7777;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 10px);
+  border-radius: 2px;
 }
 #motto {
   color: darkgreen;
