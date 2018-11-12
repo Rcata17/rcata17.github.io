@@ -17,13 +17,13 @@
 					
 			<ul id="top-menu-bar">
 				<li>
-					<a href="#">home</a>
+					<a href="#" id="home-menu">home</a>
 				</li>
 				<li>
-					<a href="#">skills</a>
+					<a href="#" id="skills-menu">skills</a>
 				</li>
 				<li>
-					<a href="#">languages</a>
+					<a href="#" id="languages-menu">languages</a>
 				</li>
 				<li>
 					<a href="#">contact</a>
@@ -49,7 +49,11 @@
 			<a href="https://github.com/nmatei">github</a>
 		<div class="test" id="content">
 			<div class="test">
-				<div class="page-block">
+				<div class="page-block" id="home-page">
+					<h2>Welcome</h2>
+					<p>About me...</p>
+				</div>
+				<div class="page-block" id="skills-page" style="display: none;">
 					<h2>Skills:</h2>
 					<ul>
 						<li class="favorite">HTML</li>
@@ -58,7 +62,7 @@
 					</ul>
 				</div>
 				
-				<div class="page-block">
+				<div class="page-block"id="languages-page" style="display: none;"> 
 					<h2>Languages</h2>
 					<table border="1">
 						<tr>
@@ -75,11 +79,11 @@
 		</div>
 	</div>
 	<div class="test" id="footer">Footer</div>
-	<script src="js/learn.js"></script>
+	<!-- <script src="js/learn.js"></script> -->
 	
 	<div id="app"></div>
 
-	<!-- <script src="src/index.js"></script> -->
+	<script src="src/index.js"></script>
 </body>
 
 </html>
