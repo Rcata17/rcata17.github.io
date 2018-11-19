@@ -104,3 +104,4 @@ function extractFromATM(amount) {
 // extractFromATM(100);
 // var motto, favorite, links;
 // motto = document.getElementById("motto");
+// motto 
